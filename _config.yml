@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ivotek.it
-email: info@ivotek.it
-description: IVOTEK
+title: IVOTEK
+#email: invalid@example.com
+description: Sito personale di Daniele Loddo, alias Ivotek
 baseurl: ""
 domain: www.ivotek.it
 url: https://www.ivotek.it
@@ -30,9 +30,10 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - legacy/
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

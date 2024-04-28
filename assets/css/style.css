@@ -1,0 +1,177 @@
+@font-face { 
+    font-family: "Jenna Sue";
+    src: url('../fonts/JennaSue-webfont.eot'); 
+    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
+} 
+
+@font-face { 
+    font-family: "News Cycle"; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html { 
+    height: 100%;}
+
+* { 
+    margin: 0; 
+    padding: 0;}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+}
+
+body { 
+    font: normal 1.7em 'Jenna Sue', arial, sans-serif;
+    /* light theme */
+    background: #9d9d9d;
+    color: #000000;
+}
+
+
+p { 
+    font: normal 100% arial, sans-serif;
+    padding: 0 0 25px 0;
+    line-height: 1.7em; 
+    color: #000000;
+}
+
+img.center { 
+    border: 0;
+    display: table;
+    margin:auto;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font: normal 350% 'Jenna Sue', arial, sans-serif;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+h2 { 
+    font: normal 170% 'Jenna Sue', arial, sans-serif;
+    margin: 0;
+    padding: 0 0 8px 0;}
+
+h3 { 
+    font: normal 150% arial, sans-serif;
+}
+
+h4, h5, h6 { 
+    margin: 0;
+    padding: 0 0 5px 0;
+    font: normal 110% arial, sans-serif;
+    line-height: 1.5em;}
+
+h5, h6 { 
+    font: italic 95% arial, sans-serif;
+    padding-bottom: 15px;}
+
+h7  { 
+    font: italic 80% arial, sans-serif;
+    padding-bottom: 15px;}
+
+a:link, a:visited { 
+    outline: none;
+    text-decoration: none;
+    color:#dddddd;
+}
+
+a:hover, a:active { 
+    text-decoration: none;
+    color:#ffffff;
+}
+
+ul { 
+    margin: 2px 0 22px 17px;}
+
+ul li { 
+    list-style-type: circle;
+    margin: 0 0 0 0; 
+    padding: 0 0 4px 5px;}
+
+ol { 
+    margin: 8px 0 22px 20px;}
+
+ol li { 
+    margin: 0 0 11px 0;}
+
+
+#site_main { 
+    margin: 20px auto;
+}
+
+#site_logo { 
+    height: 10px;
+    background: transparent;
+    padding: 0;
+}
+
+#site_menu { 
+    margin: 4px auto 0 auto;
+    padding: 0;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+.navbar{ 
+    background: #000000;
+    color: #ffffff;
+}
+
+.sub-menu{
+    border-color:#9d9d9d;
+    border-style:solid;
+    background: #000000;
+    color: #ffffff;
+}
+
+#site_banner { 
+    margin: 4px auto 0 auto;
+    padding: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    
+}
+
+#site_container { 
+    margin: 4px auto 0 auto;
+    padding: 0;
+    color: #000000;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+#page_content { 
+    margin: 4px auto 0 auto;
+    padding: 0;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+#site_news{ 
+    overflow: hidden;
+    margin: 4px auto 0 auto;
+    padding: 0;
+    border-top-style:ridge;
+}
+
+#titolo_h1{
+    text-align: center;
+    font: normal 350% 'Jenna Sue', arial, sans-serif;
+    margin: 0 0 5px 0;
+    padding: 0; 
+}
+
+.col-sm-12c{
+    display: table;
+    margin:auto;
+}
+
+p{
+    text-align:left ;
+}

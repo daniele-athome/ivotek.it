@@ -1,0 +1,28 @@
+---
+og_type: webpage
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "it" }}">
+
+{%- include head.html -%}
+
+<body>
+
+    <div id="site_main" class="col-sm-12">
+
+        {%- include header.html -%}
+
+        <div id="site_container" class="col-sm-12">
+            {{ content }}
+
+            {%- include footer.html -%}
+        </div>
+
+    </div>
+
+    <script type= "text/javascript" src="/assets/js/jquery.min.js"></script>
+    <script type= "text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

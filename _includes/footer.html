@@ -1,0 +1,42 @@
+<div id="site_news"  class="col-sm-12">
+    <h4>News</h4>
+
+    <a href="/corsi/corsi.php">
+        <img align="left" src="https://www.ivotek.it/images/ne2.gif" border="0" width="32" height="20"> Aggiunto il link sul corso per la programmazione di microcontrollori Arduino Uno.<br>
+    </a>
+
+    <p>
+        <a href="/corsi/corsi.php">
+            <img align="left" src="https://www.ivotek.it/images/ne2.gif" border="0" width="32" height="20"> Aggiunta il link al corso Linux Uno su Udemy.<br>
+        </a>
+
+        <a href="/elettronica/progetti/arcade.php">
+            <img align="left" src="https://www.ivotek.it/images/ne2.gif" border="0" width="32" height="20"> Aggiunto il tutorial per la realizzazionedi un Arcade con materiale di riciclo.<br>
+        </a>
+
+        <a href="/corsi/index.php">
+            <img align="left" src="https://www.ivotek.it/images/ne2.gif" border="0" width="32" height="20"> Aggiunta la sezione corsi.<br>
+        </a>
+
+        <a href="/robotica/poor_v2/TELEMETRIA.php">
+            <img align="left" src="https://www.ivotek.it/images/ne2.gif" border="0" width="32" height="20"> Aggiunto il programma sulla telemetria (in fase di sviluppo).<br>
+        </a>
+
+</div> <!-- chiudo le news -->
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>

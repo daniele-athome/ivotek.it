@@ -2,5 +2,6 @@ Gemfile.lock
 .sass-cache
 _site
 /.idea
+/legacy
 *~
 *.iml

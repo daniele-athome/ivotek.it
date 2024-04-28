@@ -16,9 +16,10 @@
 title: IVOTEK
 #email: invalid@example.com
 description: Sito personale di Daniele Loddo, alias Ivotek
-baseurl: ""
-domain: www.ivotek.it
-url: https://www.ivotek.it
+# after going to production -- url: https://www.ivotek.it
+# after going to production -- baseurl: ""
+url: "https://daniele-athome.github.io"
+baseurl: "/ivotek.it"
 github_username:  ivotek
 
 # Build settings

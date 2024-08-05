@@ -10,7 +10,6 @@ pagine corrispondenti.
 * `robotics-tutorial`: /robotica/tutorial/_posts
 * `electronics-manuals`: /elettronica/manuali/_posts
 * `electronics-projects`: /elettronica/progetti/_posts
-* `electronics-datasheets`: /elettronica/datasheet/_posts
 * `programming-basic`: /programmazione/basic/_posts
 * `programs-electronics`: /programmi/elettronica/_posts
 * `programs-robotics`: /programmi/robotica/_posts
@@ -32,3 +31,13 @@ poster: domestica_v1/images/domestica_v1_robot.jpg
 permalink: /robotica/progetti/:title/
 ---
 ```
+
+## Pagine statiche
+
+Le seguenti pagine sono statiche (nel senso che non hanno pagine figlie):
+
+* /elettronica/datasheet
+* /programmi/elettronica
+* /programmi/robotica
+* /corsi
+* /contatti

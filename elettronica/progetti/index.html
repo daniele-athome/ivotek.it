@@ -1,0 +1,17 @@
+---
+layout: default
+title: Elettronica - Progetti
+---
+
+<h1 id="titolo_h1">Progetti</h1>
+
+<p>Qui troverete dei progetti trovati in rete o realizzati da me, con la relativa descrizione per realizzarli ed eventuali problemi trovati nel corso della realizzazione.<br>
+    Se volete inviarmi dei vostri progetti con la descrizione potete farlo contattandomi agli indirizzi nella sezione contatti.</p>
+
+<div class="project-box">
+    <ul>
+{% for post in site.categories.electronics-projects %}
+        <li>{{ post.title }}</li>
+{% endfor %}
+    </ul>
+</div>

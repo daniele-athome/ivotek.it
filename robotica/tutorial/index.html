@@ -4,3 +4,19 @@ title: Robotica - Tutorial
 ---
 
 <h1 id="titolo_h1">Tutorial sulla robotica</h1>
+
+<p>
+    In questa sezione potrete trovare tutorial per principianti, da me realizzati sulla robotica.<br>
+    Qualche tutorial lo potete trovare sulle riviste su cui scrivo.<br>
+    Altri tutorial saranno aggiunti in seguito, tempo permettendo.
+</p>
+
+{% for post in site.categories.robotics-tutorial %}
+<div class="project-box">
+    <div class="project-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+    <img src="{{ post.poster }}" alt="(Poster)"/>
+    <div class="project-overview clearfix">
+        {{ post.summary }}
+    </div>
+</div>
+{% endfor %}

@@ -175,3 +175,7 @@ ol li {
 p{
     text-align:left ;
 }
+
+.project-box {
+    margin: 15px 0;
+}

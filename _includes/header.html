@@ -15,13 +15,13 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <!-- <li class="animated bounceInDown delay-05s"><a href="https://www.ivotek.it/index.php">Home</a></li> -->
-                    <li><a href="https://www.ivotek.it/index.php">Home</a></li>
+                    <li><a href="{{ '/' | absolute_url }}">Home</a></li>
                     <li class="sub-menu-parent tab-index='0'">
                         <!-- <a class="animated bounceInDown delay-1s" href="#">Robotica<span class="caret"></span></a>  -->
                         <a href="#">Robotica<span class="caret"></span></a>
                         <ul class="sub-menu">
-                            <li><a href="https://www.ivotek.it/robotica/tutorial.php">Tutorial</a></li>
-                            <li><a href="https://www.ivotek.it/robotica/progetti.php">Progetti</a></li>
+                            <li><a href="{{ '/robotica/tutorial' | absolute_url }}">Tutorial</a></li>
+                            <li><a href="{{ '/robotica/progetti' | absolute_url }}">Progetti</a></li>
                         </ul>
                     </li>
 
